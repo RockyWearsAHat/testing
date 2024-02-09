@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "target": "ES2022",
+    "jsx": "react",
+    "sourceMap": true,
+    "outDir": "dist"
+  },
+  "include": ["src/*.ts", "src/**/*.ts", "src/pages/*.ts", "src/pages/**/*.ts"]
+}

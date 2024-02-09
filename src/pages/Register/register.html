@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+  </head>
+  <body>
+    <h2>Register A New Account</h2>
+    <form id="registerForm">
+      <div id="baseForm">
+        <input id="email" type="email" placeholder="Email" />
+        <input id="username" type="text" placeholder="Username" />
+        <input id="displayName" type="text" placeholder="Display Name" />
+        <input id="firstName" type="text" placeholder="First Name" />
+        <input id="lastName" type="text" placeholder="Last Name" />
+        <input id="password" type="password" placeholder="Password" />
+        <input id="rptPassword" type="password" placeholder="Repeat Password" />
+      </div>
+      <input id="submit" type="submit" value="Submit" />
+    </form>
+    <div id="artistRegister">
+      One more thing before we sign you up to the collective, do you plan to sell any items on the Artists Collective?
+      It is 100% free to create and advertise items, the collective will automatically deduct production and shipping
+      costs from it, as well as handle orders and payments, then the profits are split 95% to the artist (you), and 5%
+      to the collective (us). On creation of a product you can see the base cost of the product and are able to set your
+      own price to determine what your profits will be.
+      <button id="artistRegisterYesBtn">Yes</button>
+      <button id="artistRegisterNoBtn">No</button>
+    </div>
+    <script type="module" src="/register.js"></script>
+  </body>
+</html>
